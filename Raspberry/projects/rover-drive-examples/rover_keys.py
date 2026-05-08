@@ -1,4 +1,4 @@
-# rover.py
+# rover_keys.py
 # Simple rover entry point.
 #
 # Imports pin assignments from the hal/ package and uses them
@@ -6,7 +6,7 @@
 # hal/pin_config.py — none are hardcoded here.
 # All Pins are "BCM"
 #
-# Run:  python3 rover.py
+# Run:  python3 rover_keys.py
 #
 # Requirements:
 # Standard Default - No Specific Requirements yet
