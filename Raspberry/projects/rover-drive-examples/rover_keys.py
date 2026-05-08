@@ -85,7 +85,7 @@ def drive_backward() -> None:
 
 def cleanup() -> None:
     """Release all GPIO resources."""
-    stop()
+    drive_stop()
     for device in (
         left_ena, left_in1, left_in2,
         right_enb, right_in3, right_in4,
