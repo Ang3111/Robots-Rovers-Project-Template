@@ -44,6 +44,8 @@ right_in3 = DigitalOutputDevice(MOTOR_RIGHT_IN3, initial_value=False)
 right_in4 = DigitalOutputDevice(MOTOR_RIGHT_IN4, initial_value=False)
 
 sensor = DistanceSensor(echo=ULTRASONIC_ECHO, trigger=ULTRASONIC_TRIG)
+right_speed = 0.5
+left _speed = 0.5
 
 
 def set_motors(left: float, right: float) -> None:
@@ -67,19 +69,19 @@ def drive_stop() -> None:
 
 def drive_left() -> None:
     """Stop both motors."""
-    set_motors(0.5, -0.5)
+    set_motors((left_speed), -(right_speed))
 
 def drive_right() -> None:
     """Stop both motors."""
-    set_motors(-0.5, 0.5)
+    set_motors(-(left_speed), (right_speed))
 
 def drive_forward() -> None:
     """Stop both motors."""
-    set_motors(0.5, 0.5)
+    set_motors((left_speed), (right_speed))
 
 def drive_backward() -> None:
     """Stop both motors."""
-    set_motors(-0.5, -0.50)
+    set_motors(-(left_speed), -(right_speed))
 
 def cleanup() -> None:
     """Release all GPIO resources."""
