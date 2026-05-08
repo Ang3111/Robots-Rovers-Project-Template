@@ -1,4 +1,4 @@
-# rover.py
+# rover_test.py
 # Simple rover entry point.
 #
 # Imports pin assignments from the hal/ package and uses them
