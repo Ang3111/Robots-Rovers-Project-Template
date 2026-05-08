@@ -1,4 +1,3 @@
-
 #!/bin/bash
 # rover_example_wget.sh
 echo "getting rover designs and pin_config
