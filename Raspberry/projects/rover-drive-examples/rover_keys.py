@@ -45,7 +45,7 @@ right_in4 = DigitalOutputDevice(MOTOR_RIGHT_IN4, initial_value=False)
 
 sensor = DistanceSensor(echo=ULTRASONIC_ECHO, trigger=ULTRASONIC_TRIG)
 right_speed = 0.5
-left _speed = 0.5
+left_speed = 0.5
 
 
 def set_motors(left: float, right: float) -> None:
