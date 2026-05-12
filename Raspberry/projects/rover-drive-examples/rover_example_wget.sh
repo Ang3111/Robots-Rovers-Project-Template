@@ -1,6 +1,6 @@
 #!/bin/bash
 # rover_example_wget.sh
-echo "getting rover designs and pin_config
+echo "getting rover designs and pin_config"
 sleep 2
 echo "Checking for ./hal directory..."
 # Check if ./hal exists
