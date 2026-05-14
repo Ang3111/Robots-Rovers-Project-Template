@@ -17,6 +17,7 @@ echo "Downloading rover files..."
 
 wget -O rover_test.py https://raw.githubusercontent.com/jimTheSTEAMClown/Robots-Rovers-Project-Template/refs/heads/main/Raspberry/projects/simple-rover-test/rover_test.py
 wget -O rover_keys.py https://raw.githubusercontent.com/jimTheSTEAMClown/Robots-Rovers-Project-Template/refs/heads/main/Raspberry/projects/rover-drive-examples/rover_keys.py
+wget -O rover_distance.py https://raw.githubusercontent.com/jimTheSTEAMClown/Robots-Rovers-Project-Template/refs/heads/main/Raspberry/projects/rover-drive-examples/rover_distance.py
 # Move into hal directory
 cd ./hal || exit 1
 wget -O __init__.py https://raw.githubusercontent.com/jimTheSTEAMClown/Robots-Rovers-Project-Template/refs/heads/main/Raspberry/projects/rover-drive-examples/hal/__init__.py
